@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://uo6mg0bn4xqn"]
+
+[ext_resource type="PackedScene" uid="uid://bq44g3qv7evfv" path="res://player_bass.tscn" id="1_kphsk"]
+
+[node name="Sprite2D" type="Sprite2D"]
+
+[node name="PlayerBass" parent="." instance=ExtResource("1_kphsk")]
+position = Vector2(43, 57)
+
+[node name="Camera2D" type="Camera2D" parent="PlayerBass"]
+position = Vector2(533, 270)
